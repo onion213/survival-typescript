@@ -32,3 +32,16 @@ $ yarn start
 #-> ブラウザでテンプレのアプリが開かれる
 ```
 
+### random-cat app
+Next.js で猫画像ジェネレータを作る
+```bash
+# 1. init
+$ yarn create next-app --example with-typescript random-cat
+$ cd random-cat
+$ rm -rf pages utils interfaces components
+# 2. run
+$ yarn dev
+# or
+$ yarn build
+$ yarn start
+```
