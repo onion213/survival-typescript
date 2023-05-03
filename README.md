@@ -20,3 +20,15 @@ $ yarn run tsc increment/increment.ts
 $ node increment.js
 #-> 1000
 ```
+
+### like-button app
+Reactでいいねボタンを作ってみる
+``` bash
+# 1.init
+$ yarn create react-app like-button --template typescript
+# 2. run
+$ cd like-button
+$ yarn start
+#-> ブラウザでテンプレのアプリが開かれる
+```
+
